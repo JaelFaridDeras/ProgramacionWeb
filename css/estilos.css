@@ -7,7 +7,7 @@ body {
   color: #111111; }
 
 .bienvenidos {
-  background: url("../images/fondo-encabezado.jpg") no-repeat center top;
+  background: url("../images/disenio.jpg") no-repeat center top;
   color: #fff;
   background-size: cover;
   background-attachment: fixed !important;
@@ -73,7 +73,10 @@ span.word-rotate-items span {
 .encabezado .logo img {
   width: 150px;
   height: auto; }
-
+#map {
+        height: 400px;
+        width: 100%;
+       }
 /*Estilos para el boton: buscar y menu*/
 .boton-buscar,
 .boton-menu {
@@ -224,10 +227,11 @@ SECCION AGENCIA
   color: #fff; }
 
 .agencia img {
-  width: 80%;
+  width: 110%;
   margin: 0 auto;
-  display: block; }
-
+  display: block;
+  
+}
 /*----------------------------
 SECCION TU MEJOR ELECCI├ôN
 ----------------------------*/
@@ -470,8 +474,6 @@ ESTILOS PAGINA SERVICIOS
           transition: all 1s ease; }
 
 .paginas-internas .lista-servicios .item-servicios:hover .fa {
-  -webkit-transform: rotateY(360deg);
-          transform: rotateY(360deg);
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d; }
 
@@ -609,7 +611,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     font-size: 16px; }
 
   .bienvenidos {
-    background: url("../images/fondo-encabezado-grande.jpg") no-repeat center top;
+    background: url("../images/disenio.jpg") no-repeat center top;
     background-size: cover; }
 
   .tu-mejor-eleccion ul li {
@@ -659,7 +661,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     width: 100%; }
 
   .servicios {
-    background: url("../images/fondo-servicios-grande.jpg") no-repeat center center;
+    background: url("../images/codigo.png") no-repeat center center;
     background-size: cover; } }
 
 /*# sourceMappingURL=estilos.css.map */
